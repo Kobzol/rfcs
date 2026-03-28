@@ -34,7 +34,7 @@ When the essence[^define-essence] of text, audio, or video content is generated 
 
 [^define-essence]: The RFC defines [later](#policy) what is meant by the "essence" of content.
 
-Using AI to produce content could help us make more of it or save time. But we willingly give those potential benefits up to ensure that the thoughts we share with the world are not distorted by AI suggestions and baselines, so that people we communicate with can trust that they read the ideas of the author and not the output of an AI model. Our content can come in various forms and qualities; it can be insightful, interesting, fun, boring, too long, dull, or whatever else. But most importantly, it should relay the unique thoughts of a human to another human, as that is what communication is all about.
+Using AI to produce content could help us make more of it or save time. But we willingly give those potential benefits up to ensure that the thoughts we share with the world are not distorted by AI suggestions and baselines, so that people we communicate with can trust that they read the ideas of the author and not the output of an AI model. Our content can come in various forms and qualities; it can be insightful, interesting, fun, boring, too long, dull, or whatever else. But most importantly, it should be authentic and relay the unique thoughts of a human to another human, as that is what communication is all about.
 
 ## Policy
 [policy]: #policy
@@ -69,15 +69,15 @@ Since translation is a complex topic, it has its own section in this policy. In 
 
 Any automated translation system (whether using AI or not) suffers from two issues:
 
-- The quality of the translation itself. Even with today's technologies, translation is not always perfect. As an example, it can produce words or sentences that make sense on their own, but do correspond to the message that the author wanted to relay in a given context. This is relatively common when technical terms are involved, as those can be challenging to translate without the right context. Reading such improperly translated text can be confusing for the reader, and can be even found offensive if the translation is egregiously bad, as it shows a lack of respect for both the target language and the reader. This can reduce the trustworthiness of our communication.
-  - The quality of an automated translation can be greatly improved by letting a human who knows the target language check the translation result and fix any inconsistencies.
-- Dilution of the author's original thoughts. Similarly to AI content generation, automated translation can diminish the original thoughts and style of the author, and change what they meant to say or how they meant to say it. This gets further exacerbated if there are multiple layers of translation involved. If the author automatically translates content from language to A to language B and publishes the result, and then a reader who does not understand language B uses similar technology to translate the content from language B to language C, the chance of some of the original "signal" being lost or distorted increases. This can go against the spirit of this policy, which attempts to ensure that the creative thoughts of the author are relayed in the most pristine way possible.
+- **The quality of the translation itself**. Even with today's technologies, translation is not always perfect. As an example, it can produce words or sentences that make sense on their own, but do not correspond to the exact message that the author wanted to relay in a given context. This is relatively common when technical terms are involved, as those can be challenging to translate without the right context. Reading such improperly translated text can be confusing for the reader, and can be even found offensive if the translation is egregiously bad, as it shows a lack of respect for both the target language and the reader. This can reduce the trustworthiness of our communication.
+  - The quality of an automated translation can be greatly improved by letting a human who knows the target language check the result of the automated translation and fix any inconsistencies.
+- **Dilution of the author's original thoughts**. Similarly to AI content generation, automated translation can diminish the original thoughts and style of the author, and change what they meant to say or how they meant to say it. This gets further exacerbated if there are multiple layers of translation involved. If the author automatically translates content from language to A to language B and publishes the result, and then a reader who does not understand language B uses similar technology to translate the content from language B to language C, the chance of some of the original "signal" being lost or distorted increases. This can go against the spirit of this policy, which attempts to ensure that the creative thoughts of the author are relayed in the most pristine way possible.
 
 With that being said, the language barrier issue is real, and we acknowledge that translations can be invaluable. This policy thus makes the following recommendations around translations:
 
 - Ideally, it is preferable to let a human, rather than a program, translate a given text to a different language, or at least let a human review the output of automated translation.
-- If that is infeasible, then we suggest publishing the content in the original language of the author, to avoid signal loss from transitive translations, and let the reader perform the translation on their own terms, if necessary. A missing translation is better than a bad translation.
-- If the author feels strongly that using an automated translation is the best solution in their circumstances, they should clearly disclose that the content was translated automatically, to let the reader know.
+- If that is infeasible, then we suggest publishing the content in the original language of the author, to avoid signal loss from transitive translations, and let the reader perform the translation on their own terms, if necessary. A missing translation is often better than a bad one.
+- If the author feels strongly that using an automated translation is the best solution in their circumstances, they should clearly disclose that the content was translated automatically, to let the reader know that they are reading an automatically translated text.
 
 ### Policy applicability
 
@@ -86,7 +86,7 @@ This policy only applies to public official communication channels that represen
 - The Rust Blog (`blog.rust-lang.org`), including all sub blogs (currently Inside Rust and Release announcements).
 - Rust social media channels, such as Rust Project BlueSky or YouTube accounts.
 - The Rust website (`rust-lang.org`).
-- Other websites owned and managed by the Rust Project, such as `rustup.rs`.
+- Other websites owned and operated by the Rust Project, such as `rustup.rs`, `docs.rs` or `crates.io`.
   - It should be noted that we cannot apply the policy to content provided by users outside the Rust Project which is hosted on our websites. For example, the `docs.rs` or `crates.io` websites host documentation of user crates; this policy does not apply to such "third-party" user content.
 
 It also applies to public materials that the Rust Project produces and that are shared through the above channels, such as reports or surveys.
@@ -105,7 +105,7 @@ The policy does NOT apply to:
 
 Using AI can save time and effort when producing content, which is the main reason why many people use it for this use-case. However, that is not always necessarily a good thing. As was said in the motivation section, we want to ensure that we transfer the unique thoughts of the author to the reader. The content does not have to be perfect, but it should be authentic, and that is hard to ensure when AI is used.
 
-The cost-benefit effect of using AI to generate content is asymmetrical. Forcing people to consume AI output through our channels can lead to lack of trust in the Project's communication and diminishes the unique voice of Project Members that we want to share with the world. On the other hand, using AI at most allows us to produce content faster; but producing content is not a race to be won. Furthermore, many of the most time-consuming activities that could be made easier by AI actually fall under the [auxiliary usage](#auxiliary-usage) exception, where AI usage is not disallowed.
+The cost-benefit trade-off of using AI to generate content is asymmetrical. Forcing people to consume AI output through our channels can lead to lack of trust in the Project's communication and diminishes the unique voice of Project Members that we want to share with the world. On the other hand, using AI at most allows us to produce content faster; but producing content is not a race to be won. Furthermore, many of the most time-consuming activities that could be made easier by AI fall under the [auxiliary usage](#auxiliary-usage) exception, where AI usage is not disallowed.
 
 ## Rationale and alternatives
 [rationale-and-alternatives]: #rationale-and-alternatives
@@ -118,7 +118,7 @@ As always, the alternative is not to have any policy for our official communicat
 
 An alternative to banning the usage of AI for producing content is to require disclosure that AI was used. This allows the reader to quickly judge whether they are interested in ingesting such content or not, and it can also help them understand how AI was used and what parts of the content did it affect.
 
-This alternative could be more comfortable for Rust Project members who want to use AI to generate content. However, even though having a disclosure is much better than not having it, as was stated in the motivation section, we want to ensure that the content we produce relays the original thoughts of its author in a way that does not diminish its uniqueness, creativity, and trustworthiness. The best way to ensure that is to not use AI to produce the essence of said content.
+This alternative could be more comfortable for Rust Project members who want to use AI to generate content. However, even though having a disclosure is much better than not having it, as was stated in the motivation section, we also want to ensure that the content we produce is authentic and relays the original thoughts of its author in a way that does not diminish its uniqueness, creativity, and trustworthiness. The best way to ensure that is to not use AI to produce the essence of said content.
 
 ## Prior art
 [prior-art]: #prior-art
