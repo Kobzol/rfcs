@@ -41,6 +41,11 @@ Using AI to produce content could help us make more of it or save time. But we w
 
 This policy forbids the use of AI models to fully or partially produce or modify content (text, audio, video) on official communication channels of the Rust Project in a way that alters its *essence*. We define the essence of a content as its main part that reflects the unique style and voice of the author, and which captures the thoughts that the author wants to share with the world. This ensures that we speak in our own unique voices.
 
+Here is a non-exhaustive list of AI usage that is forbidden under this policy:
+
+- **Generating the whole content based on a set of prompts**. In this case, the AI model is the one setting the tone and style of the content, rather than the author, and since prompts are typically shorter than the final content, it also has to fill in some blank spots without the author's involvement.
+- **Generating a draft with AI and then editing it**. If the basis of the content was AI-generated, it is very difficult to edit it in a way that completely removes the tell-tale signs of the AI style. Furthermore, once an author sees one version of the content, it tends to be difficult to come up with a different take on it and "unsee" what they already read.
+
 Exceptions to this rule, and the scope of the policy, are described in more detail below.
 
 ### Auxiliary usage
@@ -101,7 +106,7 @@ The policy does NOT apply to:
 ## Drawbacks
 [drawbacks]: #drawbacks
 
-### Saving effort
+### Saving time
 
 Using AI can save time and effort when producing content, which is the main reason why many people use it for this use-case. However, that is not always necessarily a good thing. As was said in the motivation section, we want to ensure that we transfer the unique thoughts of the author to the reader. The content does not have to be perfect, but it should be authentic, and that is hard to ensure when AI is used.
 
