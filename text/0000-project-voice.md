@@ -80,9 +80,11 @@ Any automated translation system (whether using AI or not) suffers from two issu
 
 With that being said, the language barrier issue is real, and we acknowledge that translations can be invaluable. This policy thus makes the following recommendations around translations:
 
-- Ideally, it is preferable to let a human, rather than a program, translate a given text to a different language, or at least let a human review the output of automated translation.
-- If that is infeasible, then we suggest publishing the content in the original language of the author, to avoid signal loss from transitive translations, and let the reader perform the translation on their own terms, if necessary. A missing translation is often better than a bad one.
+- Do not hesitate to publish the content in the original language of the author, to avoid signal loss from transitive translations, and let the reader perform the translation on their own terms, if necessary. A missing translation is often better than a bad one.
+- Let a human, rather than a program, translate a given text to a different language, or at least let a human review the output of automated translation.
 - If the author feels strongly that using an automated translation is the best solution in their circumstances, they should clearly disclose that the content was translated automatically, to let the reader know that they are reading an automatically translated text.
+
+If translated content is published, consider including the original (pre-translation) version of it too, to avoid the transitive translation problem.
 
 ### Policy applicability
 
